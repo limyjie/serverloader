@@ -8,13 +8,7 @@
     <artifactId>serverloader</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.google.auto.service</groupId>
-            <artifactId>auto-service</artifactId>
-            <version>1.0-rc6</version>
-        </dependency>
-    </dependencies>
+
 
     <build>
         <plugins>
@@ -24,15 +18,6 @@
                 <configuration>
                     <source>8</source>
                     <target>8</target>
-                    <annotationProcessors>
-                        <annotationProcessor>
-                            <path>
-                                <groupId>com.google.auto.service</groupId>
-                                <artifactId>auto-service</artifactId>
-                                <version>1.0-rc6</version>
-                            </path>
-                        </annotationProcessor>
-                    </annotationProcessors>
                 </configuration>
             </plugin>
 
